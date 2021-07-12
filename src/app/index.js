@@ -8,7 +8,7 @@ const SideMenu = () =>{
 return(
   <div className="col-sm-2 sidebar">
     {/* Pour utiliser du js dans ce fichier qui sera interpreter sur l'HTML il faut utiliser les parenthèses */}
-    Total des rayons {links.length}
+    
     <ul >
       {links.map(link => <li>{link}</li>)}
     </ul>

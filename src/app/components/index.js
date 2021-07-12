@@ -49,7 +49,7 @@ export const Navbar = ({ filter, setFiltering  }) => {
     // const { item, count } = props
     return (
       <div className="col-sm-4">
-        <div className="card red">
+        <div className="card">
           <img
             width="170"
             height="170"
